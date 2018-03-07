@@ -1,0 +1,73 @@
+html{
+	position: relative;
+}
+
+.navbar{
+	background-color: #04071f;
+}
+
+.jumbotron{
+	color: white;
+	border-bottom: 10px solid #04071f;
+    height: 680px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.list {
+	height: 100px;
+}
+
+.parallax {
+    /* The image used */
+    /*background-image: url("../background/2.jpg");
+*/
+    /* Set a specific height */
+  /*  min-height: 700px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.portfolio {
+	background-color: #eee;
+}
+
+
+a{
+	color: tomato;
+	text-decoration: none;
+}
+
+a:hover{
+	color: tomato;
+	text-decoration: none;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	background-color: #666;
+
+}
+
+footer p {
+	color: #aaa; 
+	font-size: 1em;
+}
